@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2 ease;
+}
+
+.logo img {
+    /* width: min(50vw, 200px); */
+    height: min(50vw, 50px);
+    width: auto;
+}
