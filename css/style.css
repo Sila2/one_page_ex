@@ -184,7 +184,7 @@ body {
     margin: 0 5rem;
 }
 
-.col-sm-6 {
+#about .container .row .col-sm-6 {
     /* margin-top: 3rem; */
     margin-bottom: 8rem;
 }
@@ -193,7 +193,7 @@ body {
 /* About Section Ends */
 
 
-/* Menuu Section */
+/* Menu Section Starts*/
 
 #menu .container {
     width: 100%;
@@ -217,9 +217,9 @@ body {
 #menu .container .row .col h2 {
     position: absolute;
     color: white;
-    font-weight: 600;
-    font-size: 1.8rem;
-    padding-top: 4.2rem;
+    font-weight: 900;
+    font-size: 2rem;
+    padding-top: 2.9rem;
 }
 
 #menu .container .row .col img {
@@ -285,6 +285,11 @@ body {
     margin-top: 6rem;
 }
 
+#menu .container .row .col .animation a:hover {
+    background-color: rgb(63, 170, 197);
+    /* opacity: 100%; */
+}
+
 @media (max-width:450px) {
     .col {
         width: 100%;
@@ -297,6 +302,9 @@ body {
         width: 60%;
     }
 }
+
+
+/* Menu Section Ends */
 
 
 /* Menu Section Starts */
@@ -397,7 +405,7 @@ body {
 
 /* */
 
-*/ */ */
+
 /* ************************************ */
 
 
@@ -468,3 +476,205 @@ body {
 
 
 /* ************************ */
+
+
+/* Comment Section Starts */
+
+#comments .container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* margin-top: 5rem; */
+}
+
+#comments .container .row {
+    /* padding: 0 6rem; */
+    margin: 0 5rem;
+}
+
+#comments .container .row .col-sm-6 {
+    /* margin-top: 3rem; */
+    margin-bottom: 8rem;
+}
+
+
+/* #slider,
+ul {
+    height: 200px;
+} */
+
+#comments .container .row .col-sm-6 .slider {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    height: 27rem;
+    width: 45rem;
+}
+
+#comments .container .row .col-sm-6 .slider ul {
+    list-style: none;
+    position: absolute;
+    /* left: 0; */
+    /* top: 0; */
+    transition: left .1s linear;
+    margin-left: 100rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* @keyframes slide {
+    from {
+        margin-left: 10%;
+    }
+    to {
+        margin-left: 0%;
+    }
+} */
+
+#comments .container .row .col-sm-6 .slider ul li {
+    float: left;
+    position: relative;
+    display: inline-block;
+    width: 85rem;
+}
+
+#comments .container .row .col-sm-6 .slider ul li .slider-container {
+    width: 85rem;
+    margin: 0 0;
+    padding: 0 2rem;
+}
+
+#comments .container .row .col-sm-6 .slider ul li .slider-container img {
+    border-radius: 50%;
+    height: 13rem;
+}
+
+#comments .container .row .col-sm-6 .slider ul li .slider-container p {
+    width: 50%;
+    margin-left: 0;
+    /* animation-duration: 2s;
+    animation-name: slide; */
+}
+
+@-webkit-keyframes slide-animation {
+    0% {
+        opacity: 0.8;
+    }
+    10% {
+        opacity: 0.8;
+        left: -100rem;
+    }
+    20% {
+        left: -100rem;
+        opacity: 1;
+    }
+    22.5% {
+        /* opacity: 0.6; */
+    }
+    35% {
+        left: -100rem;
+        opacity: 1;
+    }
+    45% {
+        left: -185rem;
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 1;
+        left: -185rem;
+    }
+    60% {
+        left: -185rem;
+        opacity: 1;
+    }
+    70% {
+        /* left: -125rem; */
+        /* opacity: 1; */
+    }
+    72.5% {
+        /* opacity: 0.6; */
+    }
+    85% {
+        left: -100rem;
+        opacity: 0.8;
+    }
+    90% {
+        opacity: 1;
+        left: -100rem;
+    }
+    98% {
+        left: -100rem;
+        opacity: 0.8;
+    }
+    100% {
+        left: -100rem;
+        opacity: 0;
+    }
+}
+
+
+/* @-webkit-keyframes slide-animation {
+    0% {
+        opacity: 0;
+    }
+    2% {
+        opacity: 1;
+    }
+    20% {
+        left: 0px;
+        opacity: 1;
+    }
+    22.5% {
+        opacity: 0.6;
+    }
+    25% {
+        left: -600px;
+        opacity: 1;
+    }
+    45% {
+        left: -600px;
+        opacity: 1;
+    }
+    47.5% {
+        opacity: 0.6;
+    }
+    50% {
+        left: -1200px;
+        opacity: 1;
+    }
+    70% {
+        left: -1200px;
+        opacity: 1;
+    }
+    72.5% {
+        opacity: 0.6;
+    }
+    75% {
+        left: -1800px;
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+    }
+    98% {
+        left: -1800px;
+        opacity: 0;
+    }
+    100% {
+        left: 0px;
+        opacity: 0;
+    }
+} */
+
+#comments .container .row .col-sm-6 .slider ul {
+    -webkit-animation: slide-animation 25s infinite;
+}
+
+#comments .container .row .col-sm-6 .slider ul:hover {
+    -moz-animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
+
+
+/* Comment Section Ends */
