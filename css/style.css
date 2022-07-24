@@ -55,6 +55,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    height: 10rem;
 }
 
 .header .navbar {
@@ -65,9 +66,9 @@ body {
 .header .navbar a {
     margin: 2rem;
     padding-top: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 500;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
     color: var(--dark-color);
     border-bottom: 0 transparent;
 }
@@ -78,7 +79,7 @@ body {
 
 .header .buttons button {
     cursor: pointer;
-    font-size: 1.7rem;
+    font-size: 2rem;
     background-color: transparent;
     /* margin-left: 2rem; */
     padding: 1rem;
@@ -478,7 +479,7 @@ body {
 /* ************************ */
 
 
-/* Comment Section Starts */
+/* Comments Section Starts */
 
 #comments .container {
     padding: 0;
@@ -494,7 +495,7 @@ body {
 
 #comments .container .row .col-sm-6 {
     /* margin-top: 3rem; */
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 
 
@@ -678,3 +679,48 @@ ul {
 
 
 /* Comment Section Ends */
+
+
+/* Footer Starts */
+
+.footer {
+    width: 100%;
+    background-color: #1c1919;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    justify-content: flex-start;
+}
+
+.footer-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 4.1rem;
+}
+
+.footer-buttons a {
+    color: #b3adad;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+
+.copyright {
+    color: #b3adad;
+    padding: 1rem;
+    font-size: 2rem;
+    opacity: 0.4;
+}
+
+.copyright h6 {
+    font-size: 1.3rem;
+}
+
+.footer-buttons a:hover {
+    color: var(--main-color);
+}
+
+
+/* Footer Ends */
